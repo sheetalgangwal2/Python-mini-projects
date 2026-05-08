@@ -23,4 +23,3 @@ while True:
 
     print("THANK YOU!")
     print()
-    
