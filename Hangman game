@@ -1,0 +1,28 @@
+print("HANGMAN GAME -- Guess the Letter")
+
+import random
+import string
+
+letter_len = 1
+val = str(random.randint(0, 10))
+attempts = 5
+
+while attempts > 0:
+ print()
+ print(f"{attempts} attempts left")
+
+ text = input("Choose number : ").lower()
+ if(text == "quit"):
+  break
+ elif(text == val):
+  print("WON!")
+  print("Thanks for playing")
+  break
+ else:
+  attempts -= 1
+  if attempts > 0:
+   print("Try again....")
+  else:
+   print()
+   print("GAME OVER")
+   print(f"Correct digit was {val}")

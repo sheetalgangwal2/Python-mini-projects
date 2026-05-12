@@ -1,0 +1,12 @@
+while True:
+    print("Hey!, Its mini chatbot")
+    user = input("say anuything : ")
+    if(user == "hello"):
+        print("Hi!")
+    elif(user == "how are you"):
+        print("I am fine, thanks!")
+    elif(user == "bye"):
+        print("goodbye")
+    else:
+        print("feel free to say ")
+    print()

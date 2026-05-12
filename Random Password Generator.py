@@ -16,3 +16,5 @@ for i in range(pass_len):
     password += random.choice(charValues)
 
 print("Your Random Password is : ", password)
+
+str = string.
