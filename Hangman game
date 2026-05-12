@@ -1,4 +1,4 @@
-print("HANGMAN GAME -- Guess the Letter")
+print("HANGMAN GAME --- Guess the Letter")
 
 import random
 import string
